@@ -10,11 +10,13 @@
 #include <string.h>
 #include "cortexM0tasks.h"
 
-#define STACK_FRAME 16
+#define STACK_FRAME 16 /**< Stack frame to store 16 registers */
 
 static void task_finished(void);
 
-/**< Task status */ 
+/**
+ * Task status
+ */
 typedef enum 
 {
     TASK_SLEEPING,
@@ -22,7 +24,9 @@ typedef enum
     TASK_FINISHED
 } task_status_t;
 
-/**< Task structure */ 
+/**
+ * Task structure
+ */
 typedef struct 
 {
     volatile uint32_t sp;          /**< Stack pointer */ 
@@ -35,7 +39,9 @@ typedef struct
     void (*handler)(void);         /**< Task handler  */
 } task_t;
 
-/**< Tasks structure */ 
+/**
+ * Tasks structure
+ */
 typedef struct
 {
     uint32_t max_tasks;       /**< Max tasks */
