@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{803FD0C6-D64E-4E16-9DC3-1DAEC859A3D2}") = "cortexM0tasks", "cortexM0tasks.vgdbcmake", "{97BDA504-FC2E-4476-811E-DDE1A6083269}"
+EndProject
+Project("{803FD0C6-D64E-4E16-9DC3-1DAEC859A3D2}") = "test", "test\test.vgdbcmake", "{3CA6C0DE-6884-4B39-A932-0E34A413733B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{97BDA504-FC2E-4476-811E-DDE1A6083269} = {97BDA504-FC2E-4476-811E-DDE1A6083269}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|VisualGDB = Debug|VisualGDB
+		MinSizeRel|VisualGDB = MinSizeRel|VisualGDB
+		Release|VisualGDB = Release|VisualGDB
+		RelWithDebInfo|VisualGDB = RelWithDebInfo|VisualGDB
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97BDA504-FC2E-4476-811E-DDE1A6083269}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{97BDA504-FC2E-4476-811E-DDE1A6083269}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{97BDA504-FC2E-4476-811E-DDE1A6083269}.MinSizeRel|VisualGDB.ActiveCfg = MinSizeRel|VisualGDB
+		{97BDA504-FC2E-4476-811E-DDE1A6083269}.MinSizeRel|VisualGDB.Build.0 = MinSizeRel|VisualGDB
+		{97BDA504-FC2E-4476-811E-DDE1A6083269}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{97BDA504-FC2E-4476-811E-DDE1A6083269}.Release|VisualGDB.Build.0 = Release|VisualGDB
+		{97BDA504-FC2E-4476-811E-DDE1A6083269}.RelWithDebInfo|VisualGDB.ActiveCfg = RelWithDebInfo|VisualGDB
+		{97BDA504-FC2E-4476-811E-DDE1A6083269}.RelWithDebInfo|VisualGDB.Build.0 = RelWithDebInfo|VisualGDB
+		{3CA6C0DE-6884-4B39-A932-0E34A413733B}.Debug|VisualGDB.ActiveCfg = Debug|VisualGDB
+		{3CA6C0DE-6884-4B39-A932-0E34A413733B}.Debug|VisualGDB.Build.0 = Debug|VisualGDB
+		{3CA6C0DE-6884-4B39-A932-0E34A413733B}.MinSizeRel|VisualGDB.ActiveCfg = MinSizeRel|VisualGDB
+		{3CA6C0DE-6884-4B39-A932-0E34A413733B}.MinSizeRel|VisualGDB.Build.0 = MinSizeRel|VisualGDB
+		{3CA6C0DE-6884-4B39-A932-0E34A413733B}.Release|VisualGDB.ActiveCfg = Release|VisualGDB
+		{3CA6C0DE-6884-4B39-A932-0E34A413733B}.Release|VisualGDB.Build.0 = Release|VisualGDB
+		{3CA6C0DE-6884-4B39-A932-0E34A413733B}.RelWithDebInfo|VisualGDB.ActiveCfg = RelWithDebInfo|VisualGDB
+		{3CA6C0DE-6884-4B39-A932-0E34A413733B}.RelWithDebInfo|VisualGDB.Build.0 = RelWithDebInfo|VisualGDB
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F3D16D97-E823-4C58-B8FE-C218CD5756B0}
+	EndGlobalSection
+EndGlobal
